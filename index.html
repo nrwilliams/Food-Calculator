@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Food Calculator</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="food-calculator">
+
+<h2>Step 1:</h2>
+<p>Enter number of people</p>
+<input type="text" id="people" ><br><br>
+
+<h2>Step 2:</h2>
+<p>Choose your meat</p>
+
+<!-- CHOPPED PORK LARGE -->
+<div class="chopped-pork-large btn">
+    <h2>Chopped Pork</h2>
+    <small>(large sandwiches)</small>
+    <span class="dollar-sign">$</span><input type="text" value="0.00" class="largeporkprice price">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- CHOPPED PORK REGULAR -->
+<div class="chopped-pork-regular btn">
+    <h2>Chopped Pork</h2> 
+    <small>(reg sandwiches)</small>
+    <span class="dollar-sign">$</span><input type="text" class="regularporkprice price" value="0.00">
+  <div class="select-item">Select</div>
+  </div>
+
+<!-- HALF CHICKEN -->
+<div class="chicken btn">
+    <h2>Chicken</h2> 
+  <small>1/2 lb</small>
+  <span class="dollar-sign">$</span>
+<input type="text" class="chickprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+  
+  <h2>Step 3:</h2>
+<p>Choose your sides/bread</p>
+
+<!-- BREAD -->
+<div class="bread btn">
+      <h2>Bread</h2> 
+  <small>individual price</small>
+<span class="dollar-sign">$</span><input type="text" class="breadprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+  
+  <!-- BAKED BEANS -->
+<div class="baked-beans btn">
+      <h2>Baked Beans</h2> 
+  <small>Pint/Quart</small>
+<span class="dollar-sign">$</span><input type="text" class="bbprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- POTATO SALAD -->
+<div class="potato-salad btn">
+        <h2>Potato Salad</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="psprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- COLLARDS -->
+<div class="collards btn">
+        <h2>Collards</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="collardsprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- BUTTER BEANS -->
+<div class="butter-beans btn">
+        <h2>Butter Beans</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="butter-beansprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- SQUASH CASSEROLE -->
+<div class="squash-casserole btn">
+        <h2>Squash Casserole</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="squash-casseroleprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- MAC N CHEESE -->
+<div class="mac-n-cheese btn">
+        <h2>Mac N Cheese</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="macncheeseprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- BRUNSWICK STEW -->
+<div class="brunswick-stew btn">
+        <h2>Brunswick Stew</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="brunswick-stewprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- GREEN BEANS -->
+<div class="green-beans btn">
+        <h2>Green Beans</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="green-beansprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- SWEET POTATO -->
+<div class="sweet-potato btn">
+        <h2>Sweet Potato</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="sweet-potatoprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- CHICKEN SALAD -->
+<div class="chicken-salad btn">
+        <h2>Chicken Salad</h2> 
+  <small>Pint/Quart</small>
+  <span class="dollar-sign">$</span><input type="text" class="chicken-saladprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+  <h2>Step 4:</h2>
+<p>Drinks</p>
+
+<!-- REGULAR SODA -->
+<div class="regular-soda btn">
+        <h2>Regular</h2> 
+  <small>Soda/Iced Tea</small>
+  <span class="dollar-sign">$</span><input type="text" class="regular-sodaprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+<!-- LARGE SODA -->
+<div class="large-soda btn">
+        <h2>Large</h2> 
+  <small>Soda/Iced Tea</small>
+  <span class="dollar-sign">$</span><input type="text" class="large-sodaprice price" value="0.00">
+  <div class="select-item">Select</div>
+</div>
+
+
+<button id="calculate" class="">Click to Calculate</button>
+
+<div class="total-container">
+<label class="total-label">Total: </label>
+  <div class="total">$0.00</div>
+</div>
+
+<div class="total-container">
+  <label class="total-label">Tax (7%):</label> <div class="totaltax">$0.00</div>
+</div>
+
+<div class="grandtotal-container">
+<label class="total-label">Grand Total:</label> <div class="totalwithtax">$0.00</div>
+</div>
+  
+<button id="reset">Reset</button>
+  
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
