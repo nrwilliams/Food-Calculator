@@ -3,6 +3,9 @@ Food Calcualtor for Restaurant Menu
 
 jQuery calculates based on number of people and based on a variable for each opton it pulls numbers via classes and then totals all with custom tax at the end.
 
+Working example here:
+https://codepen.io/nrwilliams/pen/EVrveQ
+
 <h2>Example</h2>
 <pre>
 <code>
